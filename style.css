@@ -4,8 +4,8 @@
 }
 
 .cabecalho {
-    background-color: indianred;
-    color: white;
+    background-color: rgb(228, 13, 13);
+    color: rgb(243, 239, 239);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -13,14 +13,30 @@
 }
 
 .cabecalho-imagem{
-    width: 29%;
+    width: 10%;
  }
 
  .cabecalho-lista-item{
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 19px;
  }
 
 .escola{  
-  background-image: linear-gradient(#F08080);
+  background-color: #ffffff;
+  color: #df2b2b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0;
+}
+
+.escola-div-conteudo{ 
+width: 15%;
+}
+.escola-titulo{
+  padding: 24px 0;
+}
+*{
+  margin: 0;
+  padding: 0;
 }
