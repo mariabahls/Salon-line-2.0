@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
 }
-
+body{
+   font-family: 'Anton', italic;
+}
 .cabecalho {
     background-color: rgb(231, 17, 17);
     color: rgb(243, 239, 239);
@@ -19,6 +21,7 @@
  .cabecalho-lista-item{
     display: inline-block;
     margin: 0 19px;
+    font-size: 16;
  }
 
 .escola{  
@@ -55,3 +58,13 @@ width: 15%;
    text-align: center;
    padding: 16px 0;
 }
+
+ .estudante-titulo {
+   text-align: center;
+   padding: 50px o;
+ }
+ 
+ .estudante-todos{
+   display: grid;
+   grid-templete-columns: 20% 20% 20% 20% 20%
+ }
